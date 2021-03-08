@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+<!--    <link rel="stylesheet" href="fcolorpicker.css">-->
+    <style>
+        body{
+            background: #eee;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="form">
+            <input type="text" data-xn-rule="required;" placeholder="姓名">
+        </div>
+        <div class="form">
+            <input type="text" data-xn-rule="required;" placeholder="性别">
+        </div>
+        <div class="form">
+            <input type="text" data-xn-rule="required;" placeholder="年龄">
+        </div>
+    </div>
+</body>
+<script src="./dist/xnformvalidator.min.js"></script>
+<script>
+    var validator=new XNFormValidator()
+</script>
+</html>
